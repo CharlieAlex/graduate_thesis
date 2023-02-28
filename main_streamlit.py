@@ -23,7 +23,7 @@ import os
 import xgboost as xgb
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import TimeSeriesSplit
-workdata_path = '/Users/alexlo/Desktop/NTU/碩論/workdata'
+workdata_path = '/Users/alexlo/Desktop/NTU/碩論/graduate_thesis/workdata'
 os.chdir(workdata_path)
 
 def draw_structure_graph():
@@ -223,7 +223,7 @@ if __name__ == '__main__':
     #0 Structure of this page
     st.header('Structure')
     # draw_structure_graph() #目前太失敗
-    os.chdir("/Users/alexlo/Desktop/NTU/碩論/reportdata")
+    os.chdir("/Users/alexlo/Desktop/NTU/碩論/graduate_thesis/reportdata")
     st.image("structure.png", caption="structure")
 
     #1 The result of Last week
